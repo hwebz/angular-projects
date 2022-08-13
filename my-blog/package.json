@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "scully": "npx scully -- --project my-blog",
-    "scully:serve": "npx scully serve -- --project my-blog"
+    "scully:serve": "npx scully serve -- --project my-blog",
+    "scully:build": "npm run build && npm run scully"
   },
   "private": true,
   "dependencies": {

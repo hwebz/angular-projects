@@ -33,3 +33,17 @@ Run `ng add @scullyio/init --project=my-blog`
 Add `"defaultProject": "<PROJECT_NAME>"` into `angular.json`
 
 Run `ng g @scullyio/init:markdown` to generate blog page
+
+## Build Angular + Scully SSG application
+
+Run `npm run build` to build Angular application
+
+Run `npm run scully` to generate Scully SSG from Angular application built above
+
+OR
+
+Run `npm run scully:build` for short
+
+## Run Angular + Scully server
+
+Run `npm run scully:serve` that exposed 2 ports for 2 applications (Angular SPA + Scully SSG)
