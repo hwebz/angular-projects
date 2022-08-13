@@ -107,6 +107,7 @@
       }
     }
   },
+  "defaultProject": "my-blog",
   "cli": {
     "analytics": false
   }
