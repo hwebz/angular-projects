@@ -32,7 +32,7 @@ Run `ng add @scullyio/init --project=my-blog`
 
 Add `"defaultProject": "<PROJECT_NAME>"` into `angular.json`
 
-Run `ng g @scullyio/init:markdown` to generate blog page
+Run `ng g @scullyio/init:markdown` to generate blog page (Enter: `posts`, `id`, `mdfiles`, `posts` sequentially)
 
 ## Build Angular + Scully SSG application
 
