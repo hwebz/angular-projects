@@ -9,6 +9,8 @@ import { Issue } from '../issue';
 })
 export class IssueListComponent implements OnInit {
   issues: Issue[] = [];
+  showReportIssue = false;
+
   constructor(private issueService: IssuesService) { }
 
   ngOnInit(): void {
@@ -17,5 +19,10 @@ export class IssueListComponent implements OnInit {
 
   private getIssues() {
     this.issues = this.issueService.getPendingIssues();
+  }
+
+  onCloseReport() {
+    this.showReportIssue = false;
+    this.getIssues();
   }
 }
