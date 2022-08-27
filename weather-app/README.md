@@ -33,6 +33,13 @@ Run `ng build`
 Run `npm run server` (Offline mode)
 Open new tab and see the notification popup ask to update
 
+## Deploy Anguar application to Firebase Hosting
+Create firebase project called `weather-app`
+Install Firebase Tools
+Run `firebase login`
+Run `ng add @angular/fire`
+Choose `ng deploy -- hosting`
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
