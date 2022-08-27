@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgxWigModule } from 'ngx-wig';
 
@@ -12,7 +13,8 @@ import { EditorComponent } from './editor/editor.component';
   ],
   imports: [
     BrowserModule,
-    NgxWigModule
+    NgxWigModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

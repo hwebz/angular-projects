@@ -16,6 +16,10 @@ module.exports = {
         options: {
           configFile: path.join(src, 'tsconfig.json')
         }
+      },
+      {
+        test: /\.html$/i,
+        loader: "html-loader",
       }
     ]
   },
