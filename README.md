@@ -6,3 +6,6 @@ Github repo: https://github.com/PacktPublishing/Angular-Projects-Second-Edition/
 
 ## Add Angular Material
 > ng add @angular/material --theme=indigo-pink --typography=true --animations=true
+
+## Add PWA into Angular app
+> ng add @angular/pwa
