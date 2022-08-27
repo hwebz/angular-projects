@@ -28,6 +28,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 Run `npm run start:desktop` on VSCode
 Press `F5` to start Electron desktop application
 
+## Packaging a desktop application
+
+Run `npm run build:electron`
+Run `npm run package`
+Go to `/dist/<app_name>{{OS}}/<app_name>[.exe]` and run application from executable file
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
