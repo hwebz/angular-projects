@@ -39,6 +39,7 @@ Install Firebase Tools
 Run `firebase login`
 Run `ng add @angular/fire`
 Choose `ng deploy -- hosting`
+Run `ng deploy`
 
 ## Further help
 
