@@ -26,6 +26,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 Run `ng add @ngniversa/express-engine` to install Angular Universal package
 Run `npm run dev:ssr` to run development server to preview
+
+## Prerendering content during build
+Run `npm run prerender` for prendering content during build in `dist/browser`
+Run `npm run serve:ssr` to start prerendered version above.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
