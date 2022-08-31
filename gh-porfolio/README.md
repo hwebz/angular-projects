@@ -25,7 +25,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Integrating Angular Universa
 
 Run `ng add @ngniversa/express-engine` to install Angular Universal package
-
+Run `npm run dev:ssr` to run development server to preview
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
