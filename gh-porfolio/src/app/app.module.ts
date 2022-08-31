@@ -17,7 +17,7 @@ import { OrganizationsComponent } from './organizations/organizations.component'
     OrganizationsComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     HttpClientModule
   ],
   providers: [],
