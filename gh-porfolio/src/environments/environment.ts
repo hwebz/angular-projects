@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  username: 'hwebz'
+  username: 'hwebz',
+  apiUrl: 'https://api.github.com'
 };
 
 /*
