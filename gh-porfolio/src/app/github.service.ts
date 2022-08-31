@@ -12,6 +12,6 @@ export class GithubService {
   constructor(private http: HttpClient) { }
 
   getUser(): Observable<User> {
-    return this.http.get<User>(`${environment.apiUrl}/${environment.username}`);
+    return this.http.get<User>(`${environment.apiUrl}/users/${environment.username}`);
   }
 }
