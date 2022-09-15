@@ -23,6 +23,11 @@ Goto https://ionicframework.com to create Ionic application
 > ionic cap open <os> (`android` or `ios`)
 > npx cap copy (when re-build app, need to run this to copy application bundle from www to native mobile project)
 
+## Storing photo on Firebase
+Create new firebase database + cloud firestore projects
+> ng add @angular/fire
+> ionic generate interface photo
+> 
 # Generate Ionic service
 > ionic generate service photo
 
