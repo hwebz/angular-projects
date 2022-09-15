@@ -13,5 +13,18 @@ Goto https://ionicframework.com to create Ionic application
 ## Generate Ionic page
 > ionic generate page capture
 
+## Install Capacitor
+> npm i @capacitor/camera @capacitor/geolocation
+
+## Build and run Ionic app on Android or iOS
+> ionic bild
+> npm i @capacitor/<os> (`android` or `ios`)
+> ionic cap add <os> (`android` or `ios`)
+> ionic cap open <os> (`android` or `ios`)
+> npx cap copy (when re-build app, need to run this to copy application bundle from www to native mobile project)
+
+# Generate Ionic service
+> ionic generate service photo
+
 ## Add PWA into Angular app
 > ng add @angular/pwa
