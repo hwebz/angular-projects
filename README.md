@@ -10,5 +10,8 @@ Github repo: https://github.com/PacktPublishing/Angular-Projects-Second-Edition/
 ## Create Ionic Application
 Goto https://ionicframework.com to create Ionic application
 
+## Generate Ionic page
+> ionic generate page capture
+
 ## Add PWA into Angular app
 > ng add @angular/pwa
