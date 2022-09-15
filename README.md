@@ -7,5 +7,8 @@ Github repo: https://github.com/PacktPublishing/Angular-Projects-Second-Edition/
 ## Add Angular Material
 > ng add @angular/material --theme=indigo-pink --typography=true --animations=true
 
+## Create Ionic Application
+Goto https://ionicframework.com to create Ionic application
+
 ## Add PWA into Angular app
 > ng add @angular/pwa
