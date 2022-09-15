@@ -16,7 +16,7 @@ Goto https://ionicframework.com to create Ionic application
 ## Install Capacitor
 > npm i @capacitor/camera @capacitor/geolocation
 
-## Build and run Ionic app on Android or iOS
+## Build and run Ionic app on Android or iOS (Android Studio & XCode required)
 > ionic bild
 > npm i @capacitor/<os> (`android` or `ios`)
 > ionic cap add <os> (`android` or `ios`)
