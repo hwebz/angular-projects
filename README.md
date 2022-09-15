@@ -12,6 +12,7 @@ Goto https://ionicframework.com to create Ionic application
 
 ## Generate Ionic page
 > ionic generate page capture
+
 > ionic generate page view
 
 ## Install Capacitor
@@ -56,6 +57,7 @@ service firebase.storage {
 
 # Generate Ionic service
 > ionic generate service photo
+> ionic generate service cesium
 
 ## Add PWA into Angular app
 > ng add @angular/pwa
