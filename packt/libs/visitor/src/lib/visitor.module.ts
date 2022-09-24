@@ -8,6 +8,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { RouterModule } from '@angular/router';
+import { PoiModule } from '@packt/poi';
+import { PoiListComponent } from './poi-list/poi-list.component';
 
 @NgModule({
   imports: [
@@ -21,12 +23,11 @@ import { RouterModule } from '@angular/router';
     RouterModule.forChild([
       {
         path: '',
-        component: VisitorComponent
-      }
-    ])
+        component: VisitorComponent,
+      },
+    ]),
+    PoiModule,
   ],
-  declarations: [
-    VisitorComponent
-  ],
+  declarations: [VisitorComponent, PoiListComponent],
 })
 export class VisitorModule {}

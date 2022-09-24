@@ -93,3 +93,5 @@ Add NgRx to manage application state
 
 Generate POI service for POI library
 > nx generate service poi --project=poi
+
+> nx generate component poi-list --project=visitor > Select '@nrwl/angular:component'
