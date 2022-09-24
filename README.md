@@ -69,4 +69,6 @@ service firebase.storage {
 
 > Install Nx Console VSCode extension
 
-> Nx Control > Generate & Run Target > Generate > @nrwl/angular - library > Enter 'visitor'
+> Nx Control > Generate & Run Target > Generate > @nrwl/angular - library > Enter 'visitor' > click Run to create visitor portal
+
+> ng add @angular/material --theme=deeppurple-amber --typography=true --animations=true
