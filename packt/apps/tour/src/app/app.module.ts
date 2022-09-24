@@ -12,6 +12,10 @@ import { RouterModule } from '@angular/router';
     BrowserAnimationsModule,
     RouterModule.forRoot([
       {
+        path: 'admin',
+        loadChildren: () => import('@packt/admin').then(m => m.AdminModule)
+      },
+      {
         path: 'tour',
         loadChildren: () => import('@packt/visitor').then(m => m.VisitorModule)
       },
