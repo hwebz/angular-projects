@@ -90,3 +90,6 @@ Add NgRx to manage application state
 > nx generate lib poi > Select '@nrwl/workspace:library'
 
 > nx generate ngrx poi --no-interactive --module=libs/poi/src/lib/poi.module.ts --barrels
+
+Generate POI service for POI library
+> nx generate service poi --project=poi
