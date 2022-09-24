@@ -86,3 +86,7 @@ Create admin portal
 
 Add NgRx to manage application state
 > nx generate ngrx app --root --no-interactive --module=apps/tour/src/app/app.module.ts
+
+> nx generate lib poi > Select '@nrwl/workspace:library'
+
+> nx generate ngrx poi --no-interactive --module=libs/poi/src/lib/poi.module.ts --barrels
