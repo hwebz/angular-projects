@@ -69,6 +69,8 @@ service firebase.storage {
 
 > Install Nx Console VSCode extension
 
-> Nx Control > Generate & Run Target > Generate > @nrwl/angular - library > Enter 'visitor' > click Run to create visitor portal
+> Nx Console > Generate & Run Target > Generate > @nrwl/angular - library > Enter 'visitor' > click Run to create visitor portal
 
 > ng add @angular/material --theme=deeppurple-amber --typography=true --animations=true
+
+> Nx Console > Generate & Run Target > Generate > @angular/material - navigation > Enter 'visitor' > project: 'visitor' > Check 'flat - Flag to indicate if a dir is created' > path: 'libs/visitor/src/lib'
