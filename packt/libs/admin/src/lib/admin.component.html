@@ -1,1 +1,11 @@
-<p>admin works!</p>
+<div class="chart" *ngIf="pieChartDatasets.length">
+  <canvas
+    baseChart
+    [datasets]="pieChartDatasets"
+    [labels]="pieChartLabels"
+    [options]="pieChartOptions"
+    [plugins]="pieChartPlugins"
+    [type]="'pie'"
+    [legend]="pieChartLegend"
+  ></canvas>
+</div>

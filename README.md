@@ -100,3 +100,9 @@ Install Google Maps
 > npm i @angular/google-maps
 
 > nx generate component map --project=visitor > Select '@nrwl/angular:component'
+
+Install Chart.js for admin portal
+> npm i ng2-charts chart.js@2.9.3
+
+Generate Admin service
+> nx generate service admin --project=admin
