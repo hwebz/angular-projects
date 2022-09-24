@@ -12,6 +12,7 @@ import { PoiModule } from '@packt/poi';
 import { PoiListComponent } from './poi-list/poi-list.component';
 import { GoogleMapsModule } from '@angular/google-maps';
 import { MapComponent } from './map/map.component';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   imports: [
@@ -22,6 +23,7 @@ import { MapComponent } from './map/map.component';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
+    MatCardModule,
     RouterModule.forChild([
       {
         path: '',
