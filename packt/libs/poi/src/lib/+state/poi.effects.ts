@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { createEffect, Actions, ofType } from '@ngrx/effects';
 import { fetch } from '@nrwl/angular';
-import { map } from 'rxjs';
+import { EMPTY, map } from 'rxjs';
 import { PoiService } from '../poi.service';
 
 import * as PoiActions from './poi.actions';
@@ -29,6 +29,21 @@ export class PoiEffects {
       })
     )
   );
+
+  visit$ = createEffect(() =>
+      this.actions$.pipe(
+        ofType(PoiActions.visitPoi),
+        fetch({
+          run: action => {
+            const selectedTourId = 'tour' + action.poiId;
+            const stat = localStorage.getItem(selectedTourId);
+            const total = stat ? Number(stat) + 1 : 1;
+            localStorage.setItem(selectedTourId, total.toString());
+            return EMPTY;
+          }
+        })
+      )
+  )
 
   constructor(private readonly actions$: Actions, private poiService: PoiService) {}
 }
