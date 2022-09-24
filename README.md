@@ -98,3 +98,5 @@ Generate POI service for POI library
 
 Install Google Maps
 > npm i @angular/google-maps
+
+> nx generate component map --project=visitor > Select '@nrwl/angular:component'

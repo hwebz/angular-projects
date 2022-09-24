@@ -11,6 +11,7 @@ import { RouterModule } from '@angular/router';
 import { PoiModule } from '@packt/poi';
 import { PoiListComponent } from './poi-list/poi-list.component';
 import { GoogleMapsModule } from '@angular/google-maps';
+import { MapComponent } from './map/map.component';
 
 @NgModule({
   imports: [
@@ -28,8 +29,8 @@ import { GoogleMapsModule } from '@angular/google-maps';
       },
     ]),
     PoiModule,
-    GoogleMapsModule
+    GoogleMapsModule,
   ],
-  declarations: [VisitorComponent, PoiListComponent],
+  declarations: [VisitorComponent, PoiListComponent, MapComponent],
 })
 export class VisitorModule {}
