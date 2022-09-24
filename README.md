@@ -68,3 +68,5 @@ service firebase.storage {
 > npx create-nx-workspace packt --appName=tour --preset=angular --style=css --linter=eslint --nx-cloud=false --routing
 
 > Install Nx Console VSCode extension
+
+> Nx Control > Generate & Run Target > Generate > @nrwl/angular - library > Enter 'visitor'
