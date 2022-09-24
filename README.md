@@ -61,3 +61,10 @@ service firebase.storage {
 
 ## Add PWA into Angular app
 > ng add @angular/pwa
+
+## Scaffold a new Nx monorepo workspace
+> npm i -g nx
+
+> npx create-nx-workspace packt --appName=tour --preset=angular --style=css --linter=eslint --nx-cloud=false --routing
+
+> Install Nx Console VSCode extension
