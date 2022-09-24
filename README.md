@@ -74,3 +74,9 @@ service firebase.storage {
 > ng add @angular/material --theme=deeppurple-amber --typography=true --animations=true
 
 > Nx Console > Generate & Run Target > Generate > @angular/material - navigation > Enter 'visitor' > project: 'visitor' > Check 'flat - Flag to indicate if a dir is created' > path: 'libs/visitor/src/lib'
+
+> NX Console > Serve > Select 'tour' to run the application
+
+> Nx Console > Generate & Run Target > Generate > @nrwl/angular - library > Enter 'admin' > click Run to create admin portal
+
+> Nx Console > Generate & Run Target > Generate > @schematics/angular – component > Enter 'admin' > project: 'admin' > Check 'flat - Flag to indicate if a dir is created' > path: 'libs/admin/src/lib'
