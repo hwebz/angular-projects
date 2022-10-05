@@ -11,6 +11,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## 3. Install @angular/cdk, bulma
 `npm i @angular/cdk bulma`
 
+## 4. Generate components
+`ng generate component card-list --project=ui-controls --export`
+`ng generate interface card --project=ui-controls`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
