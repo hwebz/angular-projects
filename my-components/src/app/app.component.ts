@@ -10,4 +10,8 @@ import { assassins } from './assassins';
 export class AppComponent {
   title = 'my-components';
   cards: Card[] = assassins;
+
+  onCardChange(cards: Card[]) {
+    console.log(cards);
+  }
 }

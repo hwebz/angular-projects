@@ -6,4 +6,15 @@
 
 .card {
   width: 200px;
+  transition: all 0.2s ease-in-out;
+}
+
+.cdk-drag-placeholder {
+  opacity: 0.2;
+  border: 1px dashed #e1e1e1;
+}
+
+.cdk-drag-dragging,
+.cdk-drag-preview {
+  transition: none !important;
 }

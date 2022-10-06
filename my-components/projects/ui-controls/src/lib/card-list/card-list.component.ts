@@ -1,4 +1,5 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Card } from '../card';
 
 @Component({
@@ -8,9 +9,14 @@ import { Card } from '../card';
 })
 export class CardListComponent implements OnInit {
   @Input() cards: Card[] = [];
+  @Output() cardChange = new EventEmitter<Card[]>();
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  sortCards(event: CdkDragDrop<string[]>): void {
+    moveItemInArray(this.cards, event.previousIndex, event.currentIndex);
+    this.cardChange.emit(this.cards);
+  }
 }
