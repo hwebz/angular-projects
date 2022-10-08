@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'lib-copy-button',
@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./copy-button.component.css']
 })
 export class CopyButtonComponent implements OnInit {
-
+  @Input() data = '';
+  @Output() copied = new EventEmitter();
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  onCopy() {
+    this.copied.next('');
+  }
 }
