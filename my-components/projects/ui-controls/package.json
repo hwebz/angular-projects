@@ -1,5 +1,5 @@
 {
-  "name": "ui-controls",
+  "name": "hdevz-ui-controls",
   "version": "1.0.0",
   "peerDependencies": {
     "@angular/common": "^14.0.0",

@@ -21,6 +21,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## 6. Create clipboard component
 `ng generate component copy-button --project=ui-controls --export`
 
+## Publish angular library to npm
+`ng build ui-controls`
+`cd dist\ui-controls`
+`npm login`
+`npm publish`
+
+## Using our angular library in other Angular applications
+`ng generate application ui-element --defaults`
+`ng add @angular/elements --project=ui-elements`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
