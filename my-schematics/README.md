@@ -7,6 +7,8 @@ This repository is a basic Schematic implementation that serves as a starting po
 
 `schematics blank my-schematics`
 
+`schematics blank tailwind-container`
+
 
 ### Testing
 
