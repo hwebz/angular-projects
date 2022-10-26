@@ -27,6 +27,10 @@ Install our schematics into newly created project
 Create a dashboard component by using tailwind-container schematic above
 `ng generate my-schematics:tailwind-container --name=dashboard`
 
+Generate crud-service schematic
+`schematics blank crud-service`
+
+
 ### Testing
 
 To test locally, install `@angular-devkit/schematics-cli` globally and use the `schematics` command line tool. That tool acts the same as the `generate` command of the Angular CLI, but also has a debug mode.
