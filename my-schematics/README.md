@@ -30,6 +30,12 @@ Create a dashboard component by using tailwind-container schematic above
 Generate crud-service schematic
 `schematics blank crud-service`
 
+Transpile TS source files into JavaScript into the same folders, side by side with TS ones.
+`npm run build`
+
+Create a customers service by using crud-service schematic above
+`ng generate my-schematics:crud-service --name=customers`
+
 
 ### Testing
 
